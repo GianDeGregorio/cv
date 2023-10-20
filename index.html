@@ -1,112 +1,139 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gianmarco's Personal Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet'>
+    <title>Gianmarco De Gregorio</title>
 </head>
-
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="./img/gianmarco.jpg" alt="gianmarco profile picture" width="200">
-            </td>
-            <td>
-                <h1>Gianmarco De Gregorio</h1>
-                <p><em>Software Developer by <strong>
-        <a href="https://safectory.com/">safectory GmbH</a>
-    </strong></em></p>
-                <p>Sono Gianmarco De Gregorio, provengo dalla bellissima Costiera Amalfitana; situata in Campania (Sud Italia). Vivo nella tranquilla e caratteristica cittá di Bamberg nel Nord della Baviera, Germania. Parlo tedesco, inglese e naturalmente
-                    italiano. Sono impiegato dal 2018 nella settore dell'IoT presso la <strong>safectory GmbH</strong> dove ho studiato per abilitarmi nella professione di <strong><em>Fachinformatiker Anwedungsentwickler</em></strong>. Mi occupo di produrre,
-                    riparare e testare nuovo codice, in piú supporto la produzione e il controllo qualitá dei sensori BLE (Bluetooth Low Energy) prodotti nella mia azienda.</p>
-            </td>
-        </tr>
-    </table>
+    <!-- Header -->
+    <section class="header">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./img/gianmarco_degregorio-removebg-preview.png" class="profile d-block mx-lg-auto img-fluid" alt="profile foto"                         height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Benvenuto !</h1>
+                    <p>(Welcome in Italian)</h6>
+                    <p class="lead">I'm Gianmarco, an Italian in Germany, working as a Developer and IT Technician at Safectory GmbH.
+                    My passions are programming, new tech, and travel. Explore my work and journey here.</p>
+                </div>
+            </div>
+        </div>
 
-    <hr size="3" noshade>
-    <h3>Education</h3>
-    <ul>
-        <li><a href="https://www.ihk.de/bayreuth/">IHK Bayreuth</a> - Fachinformatiker Anwedungsentwickler</li>
-        <li><a href="http://www.unina.it/home;jsessionid=EC2BCB4E7CCEE7B94C093FAB7E33356F.node_publisher12">Universitá degli Studi di Napoli Federico II</a> - Facoltá di Statistica</li>
-        <li><a href="https://www.iisfocaccia.it/">Istituto Tecnico B.Focaccia Salerno</a> - Diploma perito Informatico</li>
-    </ul>
-    <hr size="3" noshade>
-    <h3>Work Experience</h3>
+    </section>
 
-    <table cellspacing="10">
-        <tr>
-            <td>01.07.2018 - 31.12.2018</td>
-            <td>Partner Manager</td>
-        </tr>
-        <tr>
-            <td>01.04.2017 - 30.10.2017</td>
-            <td>Customer Sales</td>
-        </tr>
-    </table>
-    <br>
-
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>01.07.2018 - 31.12.2018</td>
-                <td>Partner Manager</td>
-            </tr>
-            <tr>
-                <td>01.04.2017 - 30.10.2017</td>
-                <td>Customer Sales</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <hr size="3" noshade>
-    <h3>Skills</h3>
-    <table border="1px">
-        <tr>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>App Developement</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>QA Testing</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
+    <!-- Skills -->
+    <section class="skills">
+        <div class="container px-4 py-5">
+                
+            <h1 class="display-6 fw-bold text-center mb-4">My Skills</h1>
+        
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th><p>Tools</p></th>
+                            <th><p>Programming Languages</p></th>
+                            <th><p>Frameworks</p></th>
+                            <th><p>Database</p></th>
+                            <th><p>VSC</p></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img class="mx-lg-auto img-fluid"src="./img/jetbrains-intellij-idea-logo-CA1D5DC51F-seeklogo.com.png" alt="intellij"></td>
+                            <td><img src="./img/dart-original-wordmark.svg" alt="dart"></td>
+                            <td><img src="./img/flutter-original.svg" alt="flutter"></td>
+                            <td><img src="./img/postgresql-original-wordmark.svg" alt="postgresql"></td>
+                            <td><img src="./img/gitlab-original-wordmark.svg" alt="gitlab"></td>                        
+                        </tr>
+                        <tr>
+                            <td><img src="./img/vscode-original-wordmark.svg" alt="vscode"></td>
+                            <td><img src="./img/html5-original-wordmark.svg" alt="html"></td>
+                            <td><img src="./img/bootstrap-plain-wordmark.svg" alt="Bootstrap"></td>
+                            <td><img src="./img/https___mariadb.com_wp-content_uploads_2019_11_mariadb-logo-vert_blue-transparent.png" alt="MariaDB"></td>
+                            <td><img src="./img/github-original-wordmark.svg" alt="github"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/androidstudio-original-wordmark.svg" alt="androidstudio"></td>
+                            <td><img src="./img/css3-plain-wordmark.svg" alt="css"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/figma-original.svg" alt="figma"></td>
+                            <td><img src="./img/java-original-wordmark.svg" alt="java"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/canva-original.svg" alt="canva"></td>
+                            <td><img src="./img/csharp-plain.svg" alt="csharp"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><img src="./img/bash-plain.svg" alt="bash"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
                 </table>
-            </td>
-            <td>
-                <table cellspacing="10">
-                    <tr>
-                        <td>Web Developement</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Scripting</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <a href="hobbies.html">My Hobbies</a>
+            </div>
+        </div>
 
-    <a href="contatme.html">Contact Me</a>
+    </section>
 
+    <!-- Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="position-relative p-5 text-center ">
+                
+                <h1>Get In Touch</h1>
+                <p class="col-lg-6 mx-auto mb-4">
+                    I'm always eager to connect with like-minded professionals, explore collaborative opportunities, and delve into
+                    innovative ideas. If you're interested in working together, sharing ideas, or simply having a conversation, I'd love to
+                    hear from you. Let's connect and create something amazing.
+                </p>
 
+                
+            </div>
+            <div class="row socialmedia">
+            
+                <div>
+                    <a href="https://github.com/GianDeGregorio"><img src="./img/icons8-github-64.png" alt=""> </a>
+                </div>
+                <div>
+                    <a href="mailto:gian.degregorio@web.de"><img src="./img/icons8-email-96.png" alt=""></a>
+            
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/gianmarco-de-gregorio-1394055b/"><img src="./img/icons8-linkedin-50.png" alt=""></a>
+            
+                </div>
+                <div>
+                    <a href="https://www.xing.com/profile/Gianmarco_DeGregorio/cv?expandNeffi=true"><img src="./img/icons8-xing-50.png" alt=""></a>
+            
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Alice'
+
+}
+
+/* Style header */
+.header {
+    background-image: "https://img.freepik.com/premium-vector/blue-line-wave-neon-tech-pattern_949459-1238.jpg?w=2000";
+    color: #ffff;
+    background-color: #176B87;
+}
+.profile {
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+/* Style skills */
+
+.skills {
+    background-color: #DAFFFB;
+    color: #176B87;
+}
+.skills img {
+    width: 50px;
+}
+th {
+    width: 20%;
+    
+}
+th p {
+    color: #176B87;
+}
+
+/* Style footer */
+.footer {
+    color: #ffff;
+    background-color: #176B87;
+    height: 500px;
+}
+
+.socialmedia div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 25%;
+
+}
+.socialmedia img {
+    width: 50px;
+}
+
+
